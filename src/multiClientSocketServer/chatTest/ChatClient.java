@@ -1,4 +1,4 @@
-package chatTest;
+package multiClientSocketServer.chatTest;
 
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
@@ -15,7 +15,8 @@ import javax.swing.JTextField;
 import javax.swing.JTextPane;
 import javax.swing.border.EmptyBorder;
 
-import main.Client;
+import multiClientSocketServer.main.Client;
+
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 

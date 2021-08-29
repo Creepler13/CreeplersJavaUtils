@@ -1,7 +1,7 @@
-package interfaces;
+package multiClientSocketServer.interfaces;
 
-import main.Client;
-import main.ClientConnection;
+import multiClientSocketServer.main.Client;
+import multiClientSocketServer.main.ClientConnection;
 
 public interface ConnectionManager {
 

@@ -1,11 +1,11 @@
-package main;
+package multiClientSocketServer.main;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import interfaces.ConnectionManager;
+import multiClientSocketServer.interfaces.ConnectionManager;
 
 public class Server {
 

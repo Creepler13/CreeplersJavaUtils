@@ -1,4 +1,4 @@
-package chatTest;
+package multiClientSocketServer.chatTest;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,9 +6,9 @@ import java.util.HashMap;
 import javax.swing.DefaultListModel;
 import javax.swing.JTextArea;
 
-import interfaces.ConnectionManager;
-import main.Client;
-import main.ClientConnection;
+import multiClientSocketServer.interfaces.ConnectionManager;
+import multiClientSocketServer.main.Client;
+import multiClientSocketServer.main.ClientConnection;
 
 public class ServerConnectionManger implements ConnectionManager {
 
