@@ -1,4 +1,4 @@
-package multiClientSocketServer.chatTest;
+package multiClientSocketServer.test;
 
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
@@ -17,9 +17,9 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import multiClientSocketServer.main.Client;
-import multiClientSocketServer.main.ClientConnection;
-import multiClientSocketServer.main.Server;
+import multiClientSocketServer.code.main.Client;
+import multiClientSocketServer.code.main.ClientConnection;
+import multiClientSocketServer.code.main.Server;
 
 import javax.swing.JTextField;
 import javax.swing.ListModel;

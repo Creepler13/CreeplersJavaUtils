@@ -1,10 +1,10 @@
-package multiClientSocketServer.chatTest;
+package multiClientSocketServer.test;
 
 import javax.swing.JTextPane;
 
-import multiClientSocketServer.interfaces.ConnectionManager;
-import multiClientSocketServer.main.Client;
-import multiClientSocketServer.main.ClientConnection;
+import multiClientSocketServer.code.interfaces.ConnectionManager;
+import multiClientSocketServer.code.main.Client;
+import multiClientSocketServer.code.main.ClientConnection;
 
 public class ClientConnectionManger implements ConnectionManager {
 

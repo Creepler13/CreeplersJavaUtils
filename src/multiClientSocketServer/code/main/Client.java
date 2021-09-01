@@ -1,4 +1,4 @@
-package multiClientSocketServer.main;
+package multiClientSocketServer.code.main;
 
 import java.io.IOException;
 import java.net.ConnectException;
@@ -7,7 +7,7 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-import multiClientSocketServer.interfaces.ConnectionManager;
+import multiClientSocketServer.code.interfaces.ConnectionManager;
 
 public class Client {
 
