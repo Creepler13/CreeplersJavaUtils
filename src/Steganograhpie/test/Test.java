@@ -43,7 +43,6 @@ public class Test {
 		v3.show();
 
 		String name = f.getName().substring(0, f.getName().length() - 4);
-		String ending = f.getName().substring(f.getName().length() - 4, f.getName().length());
 
 		PictureHistogram.getHistogram(p, f.getAbsolutePath().replace(f.getName(), name + "-histogram.dat"));
 
@@ -52,6 +51,7 @@ public class Test {
 		split[0].save(f.getAbsolutePath().replace(name, name + "-part1"));
 
 		split[1].save(f.getAbsolutePath().replace(name, name + "-part2"));
+
 	}
 
 }
