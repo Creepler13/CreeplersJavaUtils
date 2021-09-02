@@ -33,9 +33,8 @@ public class SplitImage {
 			for (int j = 0; j < p.heightY(); j++) {
 
 				int t = 0;
-				int o = p.getColor(i, j).equals( Color.WHITE) ? 0 : 1;
+				int o = p.getColor(i, j).equals(Color.WHITE) ? 0 : 1;
 
-				
 				if (rand.nextBoolean()) {
 					ret[0].setColor(i, j, Color.WHITE);
 
